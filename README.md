@@ -7,11 +7,11 @@ Then, we created the autocomplete system that stores a word bank within the AVL 
 
 Insertions and queries are default functionalities of the original AVL tree
 
-The word suggestion functionality is achieved using an optimized inorder traversal technique using Divide and Conquer strategies
+- The word suggestion functionality is achieved using an optimized inorder traversal technique using Divide and Conquer strategies
   
     calculates the inorder index from parent node's inorder index
     
-    avoids unnecessary traversals with the monotonicity of inorder indices
+    - avoids unnecessary traversals with the monotonicity of inorder indices
     
         left subtree's indices are all smaller
         
